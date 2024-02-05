@@ -1,0 +1,104 @@
+
+.grid_container{
+    display: grid;
+    padding-top: 10rem;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-items: center; 
+
+}
+
+
+.grid_container2{
+    display: grid;
+    padding-top: 8rem;
+    grid-template-columns: 1fr 2fr 4fr; /* 3 columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-items: center; 
+
+}
+
+
+
+.grid_container3{
+    display: grid;
+    padding-top: 8rem;
+    grid-template-rows: repeat(3,10rem); /* 3 columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-items: center; 
+
+}
+
+
+
+
+
+.grid_container4{
+    display: grid;
+    padding-top: 8rem;
+    grid-template-rows: repeat(1, 2fr 4fr 9fr); /* 3 columns with equal width */
+    grid-gap: 10px; /* Gap between grid items */
+    justify-items: center; 
+
+}
+
+
+.grid,
+.grid,
+.grid{
+
+  padding-top: 9rem;
+
+}
+
+.content {
+    
+    position:absolute;
+
+    bottom: 4rem;
+
+  }
+  
+
+
+.black{
+
+    background-color: rgb(3, 3, 5);
+
+    
+    border: 5px solid green;
+
+   width:100px ;
+
+   height: 100px;
+
+}
+
+.red{
+
+    background-color:red;
+
+    border: 5px solid green;
+
+   width:100px ;
+
+   height: 100px;
+
+}
+
+.yellow{
+
+    background-color: orange;
+
+    
+    border: 5px  solid green;
+
+   width:100px ;
+
+   height: 100px;
+
+}
+
+
+
+
